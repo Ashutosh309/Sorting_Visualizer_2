@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: auto;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(24, 23, 1);
+    width: 50%;
+
+    /* background-color: greenyellow; */
+    border-radius: 100px;
+}
+
+#array {
+    background-color: white;
+    height: 410px;
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    left: 25%;
+    top: 28%;
+    margin-top: 64px;
+}
+
+
+/* each value of the array will be represented by this block. */
+
+.block {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.block_id {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(212, 0, 255, 0.288);
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.speed {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.speedbuttons {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    border-color: rgb(56, 9, 226);
+    border-width: 3px;
+    display: inline;
+    position: relative;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.spdbuttons {
+    display: flex;
+    justify-content: center;
+}
+
+.divone {
+    width: 25%;
+    display: inline;
+    position: absolute;
+    left: 10%;
+    border-radius: 7px;
+    border-color: rgb(56, 9, 226);
+}
+
+.divtwo {
+    position: absolute;
+    left: 38%;
+    top: 40%;
+    border-radius: 7px;
+    border-color: rgb(56, 9, 226);
+}
+
+.divthree {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    border-radius: 7px;
+    border-color: rgb(56, 9, 226);
+}
+
+.divfour {
+    position: absolute;
+    top: 40%;
+    left: 79%;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    border-color: rgb(56, 9, 226);
+    border-width: 3px;
+    display: inline;
+    position: relative;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.btn:hover,
+.speedbuttons:hover {
+    background-color: rgba(210, 247, 110, 0.507);
+    /* font-size: large; */
+}
+
+.stopMessageClass {
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(190, 3, 3);
+}
